@@ -1,0 +1,25 @@
+[
+  {
+    "name": "policy1",
+    "in": [
+      { "name": "handler1", "params": {} },
+      { "name": "handler2", "params": {} }
+    ],
+    "out": [
+      { "name": "handler1", "params": {} },
+      { "name": "handler2", "params": {} }
+    ],
+    "target": "https://mocki.io/",
+    "endpoint": "/v1/94105153-3aaa-49da-9959-e6ff5d1de56b"
+  },
+  {
+    "name": "policy2",
+    "in": [{ "name": "handler1", "params": {} }],
+    "out": [
+      { "name": "handler1", "params": {} },
+      { "name": "handler2", "params": {} }
+    ],
+    "target": "http://www.google.com",
+    "endpoint": "/service2"
+  }
+]

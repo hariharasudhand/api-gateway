@@ -1,0 +1,1 @@
+/Users/harid/work/rust-play/api-gateway/handler_library/target/release/libhandler_library.rlib: /Users/harid/work/rust-play/api-gateway/handler_library/src/handler1.rs /Users/harid/work/rust-play/api-gateway/handler_library/src/handler2.rs /Users/harid/work/rust-play/api-gateway/handler_library/src/lib.rs

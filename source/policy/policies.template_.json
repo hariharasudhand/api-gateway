@@ -1,0 +1,55 @@
+{
+  "policies": [
+    {
+      "name": "policy1",
+      "in": {
+        "handlers": [
+          {
+            "name": "preProcessHandler1",
+            "params": {
+              "param1": "value1",
+              "param2": "value2"
+            }
+          },
+          {
+            "name": "preProcessHandler2",
+            "params": {}
+          }
+        ]
+      },
+      "out": {
+        "handlers": [
+          {
+            "name": "postProcessHandler1",
+            "params": {}
+          }
+        ]
+      },
+      "target": "http://localhost:8081",
+      "endpoint": "/service1"
+    },
+    {
+      "name": "policy2",
+      "in": {
+        "handlers": [
+          {
+            "name": "preProcessHandler3",
+            "params": {}
+          }
+        ]
+      },
+      "out": {
+        "handlers": [
+          {
+            "name": "postProcessHandler2",
+            "params": {
+              "param1": "value1"
+            }
+          }
+        ]
+      },
+      "target": "http://localhost:8082",
+      "endpoint": "/service2"
+    }
+  ]
+}

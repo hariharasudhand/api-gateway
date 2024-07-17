@@ -1,0 +1,9 @@
+[package]
+name = "handler_library"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["dylib"]  # Use "dylib" for macOS, "cdylib" for Linux
+
+[dependencies]
